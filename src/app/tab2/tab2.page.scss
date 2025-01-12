@@ -1,9 +1,32 @@
+ion-header {
+  background-color: #63d667;
+}
+
+.centered-title {
+  text-align: center; /* Center text */
+  width: 100%; /* Make the title take the full width */
+}
+
+ion-content {
+  --ion-background-color: #63d667; /* Light green background color for the page */
+}
+
 .gallery-photo {
   width: 100%;
   height: auto;
-  display: block;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around images */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.gallery-photo:hover {
+  transform: scale(1.05); /* Zoom in effect on hover */
 }
 
 ion-col {
   cursor: pointer; // Add a cursor to indicate it's clickable
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

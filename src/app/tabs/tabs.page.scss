@@ -1,1 +1,11 @@
+ion-tab-bar {
+  --background: #ec944c; /* Background color for the tab bar (orange) */
+}
 
+ion-tab-button {
+  --color: #4d8dff; /* Icon color for the selected tab (orange) */
+}
+
+ion-tab-button:hover {
+  --color: #4d8dff; /* Icon color on hover (orange) */
+}
