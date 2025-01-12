@@ -1,0 +1,21 @@
+ion-content {
+  position: relative;
+}
+
+.centered-button {
+  position: absolute;
+  top: 30%; /* 20% from the top */
+  bottom: 30%; /* 20% from the bottom */
+  left: 20%; /* 10% from the left */
+  right: 20%; /* 10% from the right */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50; /* Grass green color */
+  font-size: 24px;
+  border-radius: 50px; /* Optional: rounded corners */
+}
+
+ion-icon {
+  font-size: 160px; /* Adjust the icon size */
+}

@@ -1,0 +1,11 @@
+{
+  "/stag": {
+    "target": "https://stag-ws.utb.cz",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/stag": ""
+    }
+  }
+}
