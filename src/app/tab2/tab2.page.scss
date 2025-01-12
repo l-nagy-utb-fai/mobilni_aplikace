@@ -1,20 +1,25 @@
-ion-header {
-  background-color: #63d667;
-}
-
 .centered-title {
   text-align: center; /* Center text */
   width: 100%; /* Make the title take the full width */
+  color: #264653;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ion-toolbar {
+  --background: #e76522 !important; /* Ensure toolbar background matches header */
+  --color: #b4e51c; /* Toolbar text color */
 }
 
 ion-content {
-  --ion-background-color: #63d667; /* Light green background color for the page */
+  --ion-background-color: #b4e51c; /* Light green background color for the page */
 }
 
 .gallery-photo {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  border: 3.2px solid #e76522; /* Green border around each photo */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around images */
   transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }

@@ -9,7 +9,7 @@
     <ion-row>
       <ion-col
         *ngFor="let photo of photos"
-        size="3"
+        size="4"
         (click)="viewPhotoDetail(photo)"
       >
         <img [src]="photo.webviewPath" class="gallery-photo" />

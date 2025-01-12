@@ -6,39 +6,23 @@
         defaultHref="/tabs/tab3"
       ></ion-back-button>
     </ion-buttons>
-    <ion-title>Photo Detail</ion-title>
+    <ion-title class="centered-title">Informace</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content *ngIf="photo">
-  <!-- Display photo image -->
   <ion-card>
     <img [src]="photo.webviewPath" />
     <ion-card-header>
-      <ion-card-title>{{ photo.name }}</ion-card-title>
-      <ion-card-subtitle>{{ photo.place }}</ion-card-subtitle>
-      <ion-card-content>{{photo.wikipediaSummary}}</ion-card-content>
+      <ion-card-title class="centered-card-title"
+        >{{ photo.name }}</ion-card-title
+      >
+      <ion-card-subtitle class="centered-subtitle"
+        >{{ photo.place }}</ion-card-subtitle
+      >
+      <ion-card-content class="card-text"
+        >{{photo.wikipediaSummary}}</ion-card-content
+      >
     </ion-card-header>
   </ion-card>
 </ion-content>
-
-<!--
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">subject-detail</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>{{ item?.zkratka}}</ion-card-subtitle>
-      <ion-card-title>{{ item?.nazev }}</ion-card-title>
-
-      <ion-card-content>
-        Počet studentů: {{ item?.pocetStudentu }}
-      </ion-card-content>
-    </ion-card-header>
-  </ion-card>
-</ion-content>
--->

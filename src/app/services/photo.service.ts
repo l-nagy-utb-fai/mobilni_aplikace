@@ -31,8 +31,8 @@ export class PhotoService {
       quality: 100,
     });
 
-    const name = prompt("Enter the name of the photo:") || "Unnamed Photo";
-    const place = prompt("Enter the place of the photo:") || "Unknown Place";
+    const name = prompt("Zadej název fotografie: ") || "Unnamed Photo";
+    const place = prompt("Kde byla fotografie pořízena:") || "Unknown Place";
 
     // Fetch Wikipedia summary based on the place name
     let wikipediaSummary = "";

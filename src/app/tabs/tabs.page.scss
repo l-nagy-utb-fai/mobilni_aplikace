@@ -1,11 +1,16 @@
 ion-tab-bar {
-  --background: #ec944c; /* Background color for the tab bar (orange) */
+  --background: #e76522; /* Background color for the tab bar (orange) */
 }
 
 ion-tab-button {
-  --color: #4d8dff; /* Icon color for the selected tab (orange) */
+  --color: #264653; /* Icon color for the selected tab (orange) */
 }
 
-ion-tab-button:hover {
-  --color: #4d8dff; /* Icon color on hover (orange) */
+ion-icon {
+  color: #264653 !important;
+}
+
+ion-tab-button:active {
+  --color: #264653; /* Active color (white) */
+  --ripple-color: #264653; /* Ripple effect color when clicked (light gray) */
 }

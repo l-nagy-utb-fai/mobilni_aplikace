@@ -1,0 +1,45 @@
+.centered-title {
+  text-align: center; /* Center text */
+  width: 100%; /* Make the title take the full width */
+  color: #264653;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ion-toolbar {
+  --background: #e76522 !important; /* Ensure toolbar background matches header */
+  --color: #264653; /* Toolbar text color b4e51c e76522 264653*/
+}
+
+ion-content {
+  --ion-background-color: #b4e51c; /* Light green background color for the page */
+}
+
+ion-card {
+  --background: #e76522 !important; /* Ensure toolbar background matches header */
+}
+
+.centered-card-title {
+  text-align: center; /* Center the title */
+  font-size: 25px; /* Make the title bigger */
+  font-weight: bold; /* Optional: Make the title bold */
+  color: #264653;
+}
+
+.centered-subtitle {
+  text-align: center; /* Center the title */
+  font-size: 20px; /* Make the title bigger */
+  color: #264653;
+}
+
+.card-text {
+  text-align: block; /* Center the title */
+  font-size: 20px; /* Make the title bigger */
+  color: #264653;
+}
+
+ion-card img {
+  width: 100%; /* Make the image take up the full width of the card */
+  height: auto;
+  border-radius: 8px; /* Optional: rounded corners for the image */
+}
